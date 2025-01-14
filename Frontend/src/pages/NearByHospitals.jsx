@@ -125,7 +125,7 @@ const NearbyPlacesLocator = () => {
               <Card className="flex-grow">
                 <CardContent className="p-0">
                   <LoadScript
-                    googleMapsApiKey="AIzaSyBXmqpPEwocdW14tXXOZSRxoHAP0koyb7A"
+                    googleMapsApiKey="GOOGLE_API_KEY"
                     libraries={libraries}
                     version="beta"
                     onLoad={() => setIsGoogleMapsLoaded(true)}
